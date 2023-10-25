@@ -1,0 +1,32 @@
+body {
+    padding: 10px;
+}
+
+/* index */
+
+.main-content{
+	display: flex;
+	padding-left: 110px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.main-content .title{
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.title span{
+	display: block;
+	padding-bottom: 10px;
+}
+.title span:first-child{
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.title span:last-child{
+	font-size: 14px;
+}
